@@ -1,16 +1,71 @@
-# React + Vite
+# ⌨️ Personal Best - Minimalist Typing Speed Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, minimalist typing speed test application built with **React**, **Vite**, and **Tailwind CSS**. Inspired by Monkeytype, this app focuses on a clean user interface and smooth typing experience.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Live Stats**: Real-time WPM (Words Per Minute), Accuracy, and Timer tracking.
+- **Dynamic Content**: Passages are dynamically fetched from a JSON database based on selected difficulty.
+- **Multiple Modes**: Support for "Time-based" challenges and "Passage-based" practice.
+- **Difficulty Levels**: Choose between Easy, Medium, and Hard to test your limits.
+- **Visual Feedback**: Real-time character highlighting (Green for correct, Red for errors).
+- **Responsive Design**: Fully optimized for various screen sizes using Tailwind CSS.
+- **Professional Workflow**: Built using a feature-branch Git workflow.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js (Hooks, Context API)
+- **Bundler**: Vite
+- **Styling**: Tailwind CSS
+- **Data**: Local JSON Storage
+- **State Management**: React useState & useEffect
+
+
+
+## 📸 Screenshot
+![Typing Test Desktop View](src/assets/sshot.png)
+
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/meena-purohit/frontend-challenges 
+   ```
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd personal-best-typing
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+## 🎯 Challenges & Learnings
+
+- **Precise Timing**: Implementing a reliable timer that triggers exactly on the first keystroke.
+- **Hidden Inputs**: Managing focus on a hidden `textarea` to ensure a seamless typing experience without distracting UI elements.
+- **Dynamic Styling**: Creating a sophisticated text-rendering logic to handle character-by-character color updates and cursor animations.
+
+## 🚧 Upcoming Features
+
+- [ ] Personal Best (LocalStorage) persistence.
+- [ ] Final Results Modal with detailed analytics.
+- [ ] Sound effects for mechanical keyboard feel.
+- [ ] Dark/Light mode toggle.
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+**Developed with ❤️ by [Meena Purohit]**
