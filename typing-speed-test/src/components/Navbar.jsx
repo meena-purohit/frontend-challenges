@@ -53,7 +53,7 @@ export default function Navbar({
           <div className="flex items-center gap-2">
             <span className="text-xs opacity-60">Mode:</span>
             <div className="flex gap-1">
-              {["timed", "passage"].map((m) => (
+              {["time", "passage"].map((m) => (
                 <button
                   key={m}
                   onClick={() => setMode(m)}
