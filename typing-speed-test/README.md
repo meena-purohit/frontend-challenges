@@ -23,6 +23,8 @@ A high-performance, minimalist typing speed test application built with **React*
 - **State Management**: React useState & useEffect
 
 
+## 🚀 Live Demo
+Check out the live application here: [Personal Best - Typing Speed Test](https://frontend-challenges-psi-ochre.vercel.app/)
 
 ## 📸 Screenshot
 ![Typing Test Desktop View](src/assets/sshot.png)
